@@ -1,0 +1,82 @@
+/*header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20prem;
+    box-sizing: border-box;
+   
+}*/
+
+body{
+    background-image: url(../img/codigoblan.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 1oovh;
+}
+section.panel, section.panelinfo{
+    margin-top: 6rem;
+}
+
+
+.letranegra{
+    filter: invert(1);
+    -webkit-filter: invert(1);
+    -moz-filter: invert(1)
+    }
+
+    i.fa-brands.fa-github-alt.fa-2xl:hover{
+        color: green;
+    }
+    
+    i.fa-brands.fa-github-alt.fa-2xl{
+        color: rgb(128, 0, 107);
+    }
+
+    i.fa-brands.fa-facebook.fa-2xl:hover{
+            color: blue;
+    }
+    
+    i.fa-brands.fa-facebook.fa-2xl{
+        color: rgb(0, 255, 115);
+}
+
+    i.fa-brands.fa-linkedin.fa-2xl:hover{
+            color: maroon;
+    }
+
+    i.fa-brands.fa-linkedin.fa-2xl{
+        color: rgb(0, 128, 17);
+}
+
+    i.fa-solid.fa-user-lock.fa-2xl:hover{
+            color: red;
+    }
+
+    i.fa-solid.fa-user-lock.fa-2xl{
+        color: rgb(0, 140, 255);
+}
+
+i.fa-solid.fa-user.fa-2xl:hover{
+    color: red;
+}
+
+i.fa-solid.fa-user.fa-2xl{
+color: rgb(0, 140, 255);
+}
+.list-group{
+    --bs-list-group-bg: transparen;
+    --bs-list-group-border-color: transparent;
+}
+
+.modal-content,.modal-footer, .modal.fade, .modal-header, .modal-body{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+.modal-dialog{
+    color:rgb(238, 2, 2);
+    font-family: 'Shrikhand', cursive;
+    font-size: xx-large;
+}
+
