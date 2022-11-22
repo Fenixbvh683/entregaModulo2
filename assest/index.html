@@ -19,7 +19,7 @@
 <body>
     
     <header>
-        <section>
+        <section><!-- Inicio seccion navbar --> 
             <nav class="navbar navbar-expand-lg bg-lingk fixed-top">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="../assest/index.html">
@@ -39,26 +39,139 @@
                         </ul>
                 </div>
            </nav>
-        </section>
+        </section><!-- Fin seccion navbar -->
     </header>
 
      <main>
+      
+      
+      <section><!-- Inicio seccion banner -->
+
+        <div class="container-fluid text-center banner card mat-card">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="col">Column</div>
+            <div class="col">Column</div>
+            <div class="col">Column</div>
+            <div class="col">Column</div>
+          </div>
+        </div>
+      
+      </section><!-- fin seccion navbar -->
+
+
+
+
+    <!--<div class="card mat-card" id="first-card">
+      <div class="profile-background"><img src="../assest/img/codigoblan.png"></div>
+      <div id="info" style="padding: 16px">
+      <div id="info.img">
+        <img class="profile-image" src="../assest/img/JL3.png">
+        <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pen"></i></a></div>
+      </div>
+      <div id="info-data">
+        <div>
+          <h1>Jorge Anibal Lesme Aquino</h1>
+          <div id="info-company">Desarrollador Fullstack</div>
+          <div id="info-contact">
+            <span>Buenos Aires (Argentina)</span>
+            <span><a href="#">Informacion de Contacto</a></span>
+          </div>
+        </div>
+        <ul id="info-details">
+          <li><a href="#">
+            <img src="#">
+            <h2>Argentina Programa</h2>
+            </a></li>
+            <li><a href="#">
+              <img src="#">
+              <h2>Argentina Programa</h2>
+              </a></li>
+            </ul>
+          </div>
+        <div id="info-actions">
+          <button type="button" class="btn btn-primary">Tengo interes en</button>
+          <button type="button" class="btn btn-linght">Añadir Seccion</button>
+          <button type="button" class="btn btn-linght">Mas</button>
+        </div>
+        </div>
+      </div>-->
+    
+  
+
+
+
+
+   
+
+
+
+
+
+
+
 
     </main>
         
-                <!-- Modal Acceso de Usuario -->
+    <section>          
+      <!-- Modal Modificar Redes -->
+  <div class="modal fade" id="modificar" tabindex="-1" aria-labelledby="accesoUsuarioEtiqueta" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title f-5" id="accesoUsuarioEtiqueta">Inicio de Secion</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+           
+            <form>
+              <div class="mb-3">
+                
+                <label for="homepage">Ingresar URL GITHUB:</label>
+                <input type="url" id="homepage" name="homepage">
+
+              </div>
+              <div class="mb-3">
+                
+                <label for="homepage">Ingresar URL FACEBOOK:</label>
+                <input type="url" id="homepage" name="homepage">
+
+              </div>
+
+              <div class="mb-3">
+                
+                <label for="homepage">Ingresar URL LINKEDIN:</label>
+                <input type="url" id="homepage" name="homepage">
+
+              </div>
+
+            </form>
+    
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">Modificar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+              <!--Fin Modal Modificar Redes-->
+            </section>
+  
+
+     <section>          
+    <!-- Modal Acceso de Usuario -->
 <div class="modal fade" id="accesoUsuario" tabindex="-1" aria-labelledby="accesoUsuarioEtiqueta" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title" id="accesoUsuarioEtiqueta">Inicio de Secion</h1>
+          <h1 class="modal-title f-5" id="accesoUsuarioEtiqueta">Inicio de Secion</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
          
           <form>
             <div class="mb-3">
-              <label for="accesoUsuarioInputEmail" class="form-label">Comeil</label>
+              <label for="accesoUsuarioInputEmail" class="form-label">Email</label>
               <input type="email" class="form-control" id="accesoUsuarioInputEmail" aria-describedby="emailHelp">
               <div id="emailHelp" class="form-text">Campos Obligatorios</div>
             </div>
@@ -72,7 +185,7 @@
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
           <button type="button" class="btn btn-primary">Ingresar</button>
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#nuevo">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#nuevoUsuario">
             Nuevo Usuario
           </button>
         </div>
@@ -80,9 +193,13 @@
     </div>
   </div>
             <!--Fin Modal Acceso de Usuario-->
+          </section>
 
+
+<section>
+  
             <!--Inicio Modal Usuario Nuevo-->
-  <div class="modal fade" id="nuevo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="nuevoUsuario" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -123,44 +240,14 @@
           <button type="button" class="btn btn-primary">Ingresar</button>
         </div>
                     <!--Fin Modal Usuario Nuevo-->
+                  </section>
 
-<!-- Modal Acceso de Usuario -->
-<div class="modal fade" id="modificar" tabindex="-1" aria-labelledby="accesoUsuarioEtiqueta" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title" id="accesoUsuarioEtiqueta">Inicio de Secion</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-         
-          <form>
-            <div class="mb-3">
-              <label for="accesoUsuarioInputEmail" class="form-label">Comeil</label>
-              <input type="email" class="form-control" id="accesoUsuarioInputEmail" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">Campos Obligatorios</div>
-            </div>
-            <div class="mb-3">
-              <label for="accesoUsuarioInputPassword" class="form-label">Contraseña</label>
-              <input type="password" class="form-control" id="accesoUsuarioInputPassword">
-            </div>
-          </form>
-  
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-          <button type="button" class="btn btn-primary">Ingresar</button>
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#nuevo">
-            Nuevo Usuario
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-            <!--Fin Modal Acceso de Usuario-->
+                  <section>
 
+                    
 
-     
+                  </section>
+
      <footer>
      </footer>
 

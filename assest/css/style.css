@@ -1,3 +1,26 @@
+
+.mat-card{
+    border-radius: 2rem;
+    margin: 4rem 2rem 2rem 1rem;
+    padding: 2rem ;
+    border-color: #0a66c2;
+}
+/*.profile{
+    background-size: 5rem;
+    
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 152px;
+    height: 152px;
+    margin-top: -110px;
+    z-index: 1;
+
+}
+div#info-action {
+    display: flex;
+}*/
 /*header {
     position: fixed;
     top: 0;
@@ -7,15 +30,15 @@
    
 }*/
 
-body{
+/*body{
     background-image: url(../img/codigoblan.png);
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 1oovh;
-}
-section.panel, section.panelinfo{
+}*/
+/*section.panel, section.panelinfo{
     margin-top: 6rem;
-}
+}*/
 
 
 .letranegra{
@@ -67,7 +90,7 @@ color: rgb(0, 140, 255);
     --bs-list-group-bg: transparen;
     --bs-list-group-border-color: transparent;
 }
-
+/*
 .modal-content,.modal-footer, .modal.fade, .modal-header, .modal-body{
     background-color: transparent;
     border-color: transparent;
@@ -78,5 +101,29 @@ color: rgb(0, 140, 255);
     color:rgb(238, 2, 2);
     font-family: 'Shrikhand', cursive;
     font-size: xx-large;
-}
+}*/
 
+/*$container-max-widths:(
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);*/
+
+/*#portada{
+        
+    background-image: url(../img/tecno.png);
+    background-position: center;
+    background-size: 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    z-index: 0;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 80%;
+  }*/
