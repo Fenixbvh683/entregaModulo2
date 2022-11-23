@@ -142,13 +142,23 @@ img {
     width: 12rem;
     height: 12rem;
   }
-
+  .modi{
+    padding: 8rem 2rem 1rem 0;
+  }
+  .logoutic{
+    border-radius: none;
+        width: 9rem;
+        height: 9rem;
+        margin-top: 10px;
+        z-index: 1;
+  }
   .utic{
     width: 5rem;
     height: 5rem;
     
   }
   .utic2{
+    
     font-size: 3rem;
     font-family: 'Times New Roman', Times, serif;
     color:blue
@@ -159,4 +169,37 @@ img {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 3rem 2rem 1rem 0
     
+  }
+
+  .institu{
+    font-size: 2rem;
+    margin: 2rem;
+    color: rgb(109, 9, 223);
+}
+.bajo{
+    color: rgb(110, 24, 21);
+}
+
+.uticla{
+    padding: 3rem 0 0 0;
+}
+.logodr{
+    border-radius: 100%;
+        width: 9rem;
+        height: 9rem;
+        margin-top: 10px;
+        z-index: 1;
+  }
+  .logoapdos{
+    border-radius: none;
+        width: 20rem;
+        height: 9rem;
+        margin-top: 10px;
+        z-index: 1;
+  }
+
+  .logo1exp{
+        color: rgb(9, 223, 212);
+        width: 20rem;
+        height: 9rem;
   }
