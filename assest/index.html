@@ -45,20 +45,38 @@
      <main>
       
       
-      <section><!-- Inicio seccion banner -->
+      <section class="banner"><!--Sección Banner Inicio-->
 
-        <div class="container-fluid text-center banner card mat-card">
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-            <div class="col">Column</div>
-            <div class="col">Column</div>
-            <div class="col">Column</div>
-            <div class="col">Column</div>
-          </div>
+        <div class="container-fluid text-center">
+            <div class="row">
+              <div class="col-xs-12 col-md-6 col-lg-11">
+                
+              </div>
+                  
+            </div>
         </div>
-      
-      </section><!-- fin seccion navbar -->
+    
+    </section><!--Sección Banner Final-->
+    
+    <section><!--Sección Banner Inicio-->
 
+      <div class="container-fluid text-center">
+          <div class="row">
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              <div id="info-img"><img class="profile-image btn-edit" src="../assest/img/JL3.png"><a href="#" class="btn-ringt"><i class="fa fa-pen" type="button" 
+                data-bs-toggle="modal" data-bs-target="#foto"></i></a></div>
+                <h2 class="tipo"><strong>Jorge A. Lesme A.</strong></h2>
+                <h2><strong>Desarrollador FullStack</strong></h2>
+            </div>
 
+            <div class="col-xs-12 col-md-6 col-lg-8">
+              col
+            </div>
+                
+          </div>
+      </div>
+  
+  </section><!--Sección Banner Final-->
 
 
     <!--<div class="card mat-card" id="first-card">
@@ -112,8 +130,40 @@
 
     </main>
         
-    <section>          
-      <!-- Modal Modificar Redes -->
+    <section><!-- Modal Modificar Foto -->          
+      
+      <div class="modal fade" id="foto" tabindex="-1" aria-labelledby="accesoUsuarioEtiqueta" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title f-5" id="accesoUsuarioEtiqueta">Modificar Foto</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+               
+                <form>
+                  <div class="mb-3">
+                    
+                    <label for="homepage">Ingresar URL GITHUB:</label>
+                    <input type="url" id="homepage" name="homepage">
+    
+                  </div>
+                     
+                </form>
+        
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary">Modificar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+                  
+                </section><!--Fin Modal Modificar Foto-->
+
+    <section><!-- Modal Modificar Redes -->          
+      
   <div class="modal fade" id="modificar" tabindex="-1" aria-labelledby="accesoUsuarioEtiqueta" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -154,12 +204,12 @@
         </div>
       </div>
     </div>
-              <!--Fin Modal Modificar Redes-->
-            </section>
+              
+            </section><!--Fin Modal Modificar Redes-->
   
 
-     <section>          
-    <!-- Modal Acceso de Usuario -->
+     <section><!-- Modal Acceso de Usuario -->          
+    
 <div class="modal fade" id="accesoUsuario" tabindex="-1" aria-labelledby="accesoUsuarioEtiqueta" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -192,13 +242,13 @@
       </div>
     </div>
   </div>
-            <!--Fin Modal Acceso de Usuario-->
-          </section>
+            
+          </section><!--Fin Modal Acceso de Usuario-->
 
 
-<section>
+<section><!--Inicio Modal Usuario Nuevo-->
   
-            <!--Inicio Modal Usuario Nuevo-->
+            
   <div class="modal fade" id="nuevoUsuario" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -239,8 +289,8 @@
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
           <button type="button" class="btn btn-primary">Ingresar</button>
         </div>
-                    <!--Fin Modal Usuario Nuevo-->
-                  </section>
+                    
+                  </section><!--Fin Modal Usuario Nuevo-->
 
                   <section>
 

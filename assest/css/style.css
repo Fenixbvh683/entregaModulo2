@@ -1,27 +1,20 @@
-
-.mat-card{
-    border-radius: 2rem;
-    margin: 4rem 2rem 2rem 1rem;
-    padding: 2rem ;
-    border-color: #0a66c2;
-}
 /*.profile{
     background-size: 5rem;
     
-}
+}*/
 
 .profile-image {
     border-radius: 50%;
-    width: 152px;
-    height: 152px;
-    margin-top: -110px;
+    width: 20rem;
+    height: 20rem;
+    margin-top: -170px;
     z-index: 1;
 
 }
-div#info-action {
+/*div#info-action {
     display: flex;
-}*/
-/*header {
+}
+header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -30,12 +23,18 @@ div#info-action {
    
 }*/
 
-/*body{
+.banner{
     background-image: url(../img/codigoblan.png);
+    background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-    min-height: 1oovh;
-}*/
+    min-height: 60vh;
+    margin-top: 0;
+    z-index: 0;
+}
+.margen{
+    padding-top: 40rem;
+}
 /*section.panel, section.panelinfo{
     margin-top: 6rem;
 }*/
@@ -90,19 +89,25 @@ color: rgb(0, 140, 255);
     --bs-list-group-bg: transparen;
     --bs-list-group-border-color: transparent;
 }
-/*
-.modal-content,.modal-footer, .modal.fade, .modal-header, .modal-body{
+
+/*.modal-content,.modal-footer, .modal.fade, .modal-header, .modal-body{
     background-color: transparent;
     border-color: transparent;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 .modal-dialog{
-    color:rgb(238, 2, 2);
+    color:rgb(18, 2, 238);
     font-family: 'Shrikhand', cursive;
     font-size: xx-large;
 }*/
 
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Shrikhand&display=swap');
+.tipo{
+font-family: 'Fredoka One', cursive;
+font-family: 'Shrikhand', cursive;
+font-size: 2.5rem;
+}
 /*$container-max-widths:(
   sm: 540px,
   md: 720px,
