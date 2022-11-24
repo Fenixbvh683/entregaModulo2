@@ -11,6 +11,14 @@
     z-index: 1;
 
 }
+.cuerpo{
+
+    background-color: beige;
+}
+
+.card{
+    background: transparent;
+}
 /*div#info-action {
     display: flex;
 }
@@ -203,3 +211,11 @@ img {
         width: 20rem;
         height: 9rem;
   }
+.html{
+    font-size: 2rem;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+  /*Inicio de Progres Bar Mitades*/
+
+  
