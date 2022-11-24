@@ -19,6 +19,12 @@
 .card{
     background: transparent;
 }
+
+.ban{
+    
+    padding-top: 25rem;
+    
+}
 /*div#info-action {
     display: flex;
 }
@@ -200,16 +206,16 @@ img {
   }
   .logoapdos{
     border-radius: none;
-        width: 20rem;
-        height: 9rem;
-        margin-top: 10px;
+        width: 10rem;
+        height: 5rem;
+        margin-top: 3rem;
         z-index: 1;
   }
 
   .logo1exp{
         color: rgb(9, 223, 212);
-        width: 20rem;
-        height: 9rem;
+        width: 12rem;
+        height: 6rem;
   }
 .html{
     font-size: 2rem;
